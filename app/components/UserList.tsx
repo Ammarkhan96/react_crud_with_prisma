@@ -59,7 +59,7 @@ const UserList = () => {
     <div>
       <div className='flex justify-between'>
          <h2>Users</h2>
-         <button onClick={openNewUser} className='btn btn-primary' >Create New User</button>
+         <button  className='btn btn-primary' onClick={() => openNewUser(userId)} >Create New User</button>
       </div>
 
       <table className='table table-zebra'>
